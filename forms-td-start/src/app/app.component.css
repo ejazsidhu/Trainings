@@ -1,0 +1,29 @@
+.container {
+  margin-top: 30px;
+}
+
+input.ng-invalid.ng-touched {
+  border-color: red;
+}
+
+p.text-red {
+  margin-top: 2px;
+  color: red;
+}
+
+.container {
+  padding: 5rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
+  background-color: #f4b4b4;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.card-body{
+  padding: 1rem;
+}

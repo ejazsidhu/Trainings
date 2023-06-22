@@ -1,0 +1,51 @@
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <form (ngSubmit)="onSubmit()" #f="ngForm">
+        <div id="user-data">
+          <div class="form-group">
+            <label for="email">Mail</label>
+            <input type="email" id="email" class="form-control" name="email" #email="ngModel" ngModel required email>
+            <p *ngIf="email.invalid && email.touched" class="text-red">Please enter a valid email address</p>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="form-control" name="password" ngModel required #password="ngModel">
+            <p *ngIf="password.invalid && password.touched" class="text-red">Password is required.</p>
+
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="secret">Secret Questions</label>
+          <select id="secret" class="form-control" name="subscription" [(ngModel)]="defaultSubscription">
+            <option value="basic">Basic</option>
+            <option value="advance">Advance</option>
+            <option value="pro">Pro</option>
+          </select>
+        </div>
+        <button class="btn btn-primary" [disabled]="!f.valid" title="Please enter valid data to submit this form." type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="isSubmited">
+  <div class="row">
+    <div class="col-md-12">
+      <p>Email: {{subscription.email}}</p>
+      <p>Subscription Type: {{subscription.subscriptionType}}</p>
+
+    </div>
+  </div>
+</div> -->
+
+<!-- <input type="text" name="test" id="test" appRainbow> -->
+
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+

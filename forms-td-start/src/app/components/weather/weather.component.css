@@ -1,0 +1,16 @@
+.form{
+    text-align: center;
+    padding: 5rem;
+}
+
+.form .input   {
+    width: 100%;
+
+}
+
+.form .btn {
+    border-radius: 10px;
+    /* width: 100%; */
+    /* max-width: 50px; */
+    margin: 3rem;
+}
